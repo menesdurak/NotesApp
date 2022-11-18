@@ -23,9 +23,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
                 android:text="Title"
                 android:textColor="@color/black"
-                android:textSize="18sp"/>
+                android:padding="8dp"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
         </RelativeLayout>
 
         <TextView
@@ -34,6 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:text="Note"
+            android:maxLines="10"
+            android:padding="8dp"
+            android:textStyle="normal"
             android:textColor="@color/black"
             android:textSize="14sp"/>
 
@@ -41,10 +50,16 @@
             android:id="@+id/tv_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
+            android:singleLine="true"
+            android:scrollHorizontally="true"
+            android:textStyle="normal"
+            android:padding="8dp"
+            android:maxLines="10"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
             android:text="Date"
-            android:textColor="@color/black"
-            android:textSize="14sp"/>
+            android:textColor="@color/gray"
+            android:textSize="14sp" />
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

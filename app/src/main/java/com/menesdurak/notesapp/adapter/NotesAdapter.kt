@@ -59,6 +59,7 @@ class NotesAdapter(private val context: Context, val listener: NotesClickListene
     }
 
     fun filterList(search: String) {
+        //TODO("Filter is not working correctly")
         notesList.clear()
 
         for(item in fullList) {

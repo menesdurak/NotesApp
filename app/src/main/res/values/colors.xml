@@ -12,4 +12,5 @@
     <color name="NoteColor2">#FF9F9F</color>
     <color name="NoteColor3">#FCDDB0</color>
     <color name="NoteColor4">#FFFAD7</color>
+    <color name="gray">#4A4F51</color>
 </resources>

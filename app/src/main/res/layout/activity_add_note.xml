@@ -63,7 +63,7 @@
         android:layout_height="0dp"
         android:layout_marginTop="26dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textMultiLine"
         android:gravity="top"
         android:hint="Start Typing"
         android:lineSpacingMultiplier="1.8"
